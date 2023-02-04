@@ -1,0 +1,75 @@
+
+/* font Link */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Roboto:wght@100&display=swap');
+
+/* Start CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 1%;
+  padding-right: 3%;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+ul {
+  padding-right: 50.75rem;
+  font-size: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.hover :hover {
+    color: #5955b3;
+}
+
+button {
+  padding: 10px 18px;
+  border: none;
+  color: #ffffff;
+  background-color: #0800ff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: large;
+}
+
+.hero-left {
+  position: absolute;
+  top: 25%;
+  width: 30%;
+  padding: 100px;
+  font-size: 30px;
+}
+p {
+  font-size: 12px;
+  padding: 30px 0px;
+}
+
+span {
+  color: #4440cd;
+}
+h1 {
+  color: #100b74;
+}
+
+.hero-image {
+  position: absolute;
+  top: -70%;
+  width: 184%;
+  left: 27em;
+}
